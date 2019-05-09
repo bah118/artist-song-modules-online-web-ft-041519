@@ -1,8 +1,8 @@
 require 'pry'
 
 class Song
+  include Initializable, Paramable
   extend Memorable, Findable
-  include Paramable
   
   attr_accessor :name
   attr_reader :artist
