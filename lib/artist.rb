@@ -1,7 +1,7 @@
 require 'pry'
 
+  include Initializable, Paramable
   extend Memorable, Findable
-  include Paramable, Initializable
   
   attr_accessor :name
   attr_reader :songs
