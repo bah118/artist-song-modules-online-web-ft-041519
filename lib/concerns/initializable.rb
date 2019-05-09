@@ -1,0 +1,4 @@
+module Initializable
+  
+  
+end
