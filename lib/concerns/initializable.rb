@@ -1,7 +1,7 @@
 module Initializable
   
   def initialize
-    .class.all << self
+    all << self
   end
   
 end
