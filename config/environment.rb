@@ -1,4 +1,5 @@
 require 'pry'
+
 require_relative '../lib/concerns/initializable'
 require_relative '../lib/concerns/findable'
 require_relative '../lib/concerns/memorable'
